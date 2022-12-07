@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
 body {
-  font-size: 1rem;
-  background-image: radial-gradient(circle at 50% -20.71%, #ade5ff 0, #7dcefb 25%, #3cb5f2 50%, #009ce9 75%, #0085e0 100%);
-  font-family: var(--font-primary);
-  width: 100vw;
-  height: 100vh;
+  background-color: var(--bgColor);
+  color: var(--color-light)
 }

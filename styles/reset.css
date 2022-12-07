@@ -5,8 +5,9 @@
   --font-primary: 'Roboto Mono', monospace;
   --font-secudary: Arial, sans-serif;
 
-  --color-gradient-01: rgb(0, 76, 255);
-  --color-gradient-02:  rgb(0, 80, 255);
+
+
+  --bgColor: #151515;
   --color-light: #fff;
   --color-dark-light: #BFBFBF;
   --color-dark: #000;
