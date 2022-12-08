@@ -3,7 +3,7 @@
 
 :root {
   --font-primary: 'Roboto Mono', monospace;
-  --font-secudary: Arial, sans-serif;
+  --font-secundary: Arial, sans-serif;
 
 
 
@@ -21,12 +21,6 @@
 
 html {
   font-size: 62,5%;
-}
-
-body,
-html {
-  width: 100vw;
-  height: 100vh;
 }
 
 li, a {

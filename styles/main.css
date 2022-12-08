@@ -1,6 +1,158 @@
 @charset "UTF-8";
 
 body {
-  background-color: var(--bgColor);
-  color: var(--color-light)
+  max-width: 92vw;
+  height: 100%;
+  margin: 0 auto;
+  font-family: var(--font-secundary);
 }
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-principal {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.img-principal img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+
+.container-one {
+  margin-top: 20px;
+ }
+ 
+ .container-title {
+   font-size: 3.5rem;
+   font-weight: 750;
+ }
+
+ .container-paragrafo {
+  color: #292a2b;
+  font-family: arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+ }
+
+ .bnt {
+  padding: 15px 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #f15b50;
+  color: var(--color-light);
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+ }
+ 
+ .container-two {
+  margin-top: 40px;
+  padding: 20px;
+  line-height: 2rem;
+  background-color: #00001a;
+ }
+  
+
+ .container-two-subtitle {
+  color: #bc8d4c;
+  font-size: 2.2rem;
+ }
+
+ .tree-subtitle {
+  color: var(--color-light);
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  margin-top: 50px;
+ }
+
+ .container-two p {
+  font-size: 1.2rem;
+  color: var(--color-dark-light);
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: .8px solid rgba(255, 255, 255, 0.453);
+ }
+
+ .container-two p:nth-child(7) {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+ }
+
+ .list {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .list-li {
+  height: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 1.7rem;
+ }
+
+.list-li img {
+  width: 35%;
+}
+
+
+.list-li span {
+  position: absolute;
+  top: 0%;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #c6c6ce;
+}
+
+.list-li .div strong {
+  font-size: 1.3rem;
+  font-weight: 900;
+  padding-top: 40px;
+  color: black;
+}
+
+.list-li .div p {
+  font-size: 1rem;
+  color: #656472;
+  line-height: 1.5rem;
+  text-align: justify;
+ }
+
+ .list-li .div {
+  padding-left: 20px;
+ }
+
+ footer {
+  background-color: #c6c6ce;
+  color: #656472;
+  width: 100%;
+  height: 50px;
+  margin-top: 40px;
+  padding: 0px 4px;
+  display: flex;
+  align-items: center;
+  font-size: .9rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+ }
+
+ footer a {
+  color: #54535a;
+  cursor: pointer;
+ }
