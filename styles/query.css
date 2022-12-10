@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .container-one .container-title {
+    font-size: 2rem;
+  }
+
+  .container-two .container-two-subtitle {
+    font-size: 1.8rem;
+  }
+
+  .container-two .tree-subtitle {
+    font-size: 1.2em;
+  }
+
+  .container-two p {
+    font-size: .9rem;
+  }
+
+    footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+  .img-principal img {
+    width: 80%;
+    height: 100%;
+  }
+
+  .container-one .container-title {
+    font-size: 2rem;
+  }
+
+  .container-two .container-two-subtitle {
+    font-size: 1.8rem;
+  }
+
+  .container-two .tree-subtitle {
+    font-size: 1.2em;
+  }
+
+  .container-two p {
+    font-size: .9rem;
+  }
+
+    footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+  #body {
+    margin: 0 auto;
+    width: 80vw;
+  }
+
+  .header {
+    height: 150px;
+    align-items: center;
+  }
+
+  .header .menu-burguer {
+    height: 100%;
+  }
+
+  .header .menu-burguer img {
+    display: none;
+  }
+
+  .header .menu-principal {
+    display: flex;
+    gap: 20px;
+    height: 150px;
+    color: rgba(0, 0, 0, 0.31);
+    font-weight: bold;
+  }
+
+  .container-main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 40% 25% 35% ;
+    grid-template-areas:
+        "img s2" 
+        "s1 s2"
+        "as as";
+    column-gap: 40px;
+  }
+
+  .container-main .img-principal {
+    grid-area: img;
+    margin: 0;
+  }
+
+  .container-main .container-one {
+    grid-area: s1;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .container-main .container-one h1 {
+    font-size: 4rem;
+    font-weight: 900;
+  }
+
+  .container-main .container-one p {
+    font-size: 18px;
+    line-height: 2rem;
+    padding-bottom: 75px;
+  }
+
+    .container-main .container-two {
+    grid-area: s2;
+    margin: 0;
+  }
+    .container-main .aside {
+      grid-area: as;
+      margin: 0;
+    }
+
+    .container-main .aside img {
+    width: 40%;
+    height: 70%;
+  }
+
+  .aside .list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    position: relative;
+  }
+
+  .list-li .div span {
+    position: absolute;
+    top: 15%;
+}
+
+.list-li .div strong {
+  font-size: 18px;
+}
+
+.list-li .div p {
+  font-size: 16px;
+  padding-top: 40px;
+}
+
+  .list-li img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .aside .list-li-two p {
+    font-size: 17px;
+  }
+
+  .footer {
+   width: 100%;
+  }
+
+}
