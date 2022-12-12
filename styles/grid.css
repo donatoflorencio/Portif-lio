@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#container {
+  width: 90vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0px 50px;
+
+  display: grid;
+  grid-template-columns: 67% 0px 30%;
+  grid-template-rows: 12% 40% 20% 18%;
+  grid-template-areas: 
+  "header header header"
+  "img img new"
+  "texte texte new"
+  "links links links";
+  column-gap: 25px;
+  row-gap: 25px;
+}

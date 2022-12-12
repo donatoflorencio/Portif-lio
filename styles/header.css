@@ -1,14 +1,19 @@
 @charset "UTF-8";
 
-.header {
-  height: 100px;
-  width: 100%;
+.container-header {
+  grid-area: header;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.menu-principal {
+.container-menu .menu-list {
+  display: flex;
+  gap: 30px;
+}
+
+.menu-open, .menu-close {
   display: none;
 }
 

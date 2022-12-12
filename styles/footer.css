@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.container-links {
+  grid-area: links;
+  display: flex;
+  justify-content: space-between;
+  height: 98%;
+  margin-top: 50px;
+}
+
+.container-links .link-list {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.container-links .link-list .list-img img {
+  height: 95%;
+}
+
+.container-links .list-text {
+  padding: 0px 20px;
+  line-height: 25px;
+}
