@@ -9,45 +9,113 @@
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/query.css">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-  
   <title>Frontend Mentor | News homepage</title>
-
 </head>
-<body id="body">
-  <header>
-
-      <img src="images/logo.svg" alt="Logo">
-      <ul class="menu-principal">
-        <li class="list"><a href="#">Home</a></li>
-        <li class="list"><a href="#">New</a></li>
-        <li class="list"><a href="#">Popular</a></li>
-        <li class="list"><a href="#">Trending</a></li>
-        <li class="list"><a href="#">Categories</a></li>
+<body>
+  <div id="container">
+    <header class="container-header">
+      <div class="container-logo">
+        <img class="logo-img" src="images/logo.svg" alt="Logo Menu">
+      </div>
+      <div class="container-menu">
+        <ul class="menu-list">
+          <li class="list list-1"><a href="#">Home</a></li>
+          <li class="list list-2"><a href="#">New</a></li>
+          <li class="list list-3"><a href="#">Popular</a></li>
+          <li class="list list-4"><a href="#">Trending</a></li>
+          <li class="list list-5"><a href="#">Categories</a></li>
+        </ul>
+        <div class="menu-open">
+          <img src="images/icon-menu.svg" alt="Icone Menu Open">
+        </div>
+        <div class="menu-close">
+          <img src="images/icon-menu-close.svg" alt="Icone Mneu Close">
+        </div>
+      </div>
+    </header>
+    <div class="container-img">
+      <div>
+        <img src="images/image-web-3-mobile.jpg" alt="">
+      </div>
+    </div>
+    <section class="container-texte">
+      <div class="texte-title">
+        <h1>The Bright Future of Web 3.0?</h1>
+      </div>
+      <div class="texte-par">
+        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the
+          people. But is it really fulfiling its promise?</p>
+          <button>read more</button>
+      </div>
+    </section>
+    <section class="container-new">
+      <ul class="new-list">
+        <li><h2>New</h2></li>
+        <li>
+          <ul>
+            <li><h3>Hydrogen VS Electric Cars</h3></li>
+            <li>
+              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li><h3>The Downsides of AI Artistry</h3></li>
+              <li>
+                <p>What are the possible adverse effects of on-demand AI image generation?
+            </p>
+          </li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li><h3>Is VC Funding Drying Up.</h3></li>
+            <li>
+              <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </li>
+          </ul>
+        </li>
       </ul>
-    </div> 
-  </header>
-      The Bright Future of Web 3.0?
-          We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
-       Read more    
-New
-Hydrogen VS Electric Cars
-
-        Will hydrogen-fueled cars ever catch up to EVs?
-
-        The Downsides of AI Artistry
-        What are the possible adverse effects of on-demand AI image generation?
-       Is VC Funding Drying Up.
-        Private funding by VC firms is down 50% YOY. We take a look at what that means.
-              01 Retro PCs
-                What happens when old PCs are given modern upgrades?
-
-02
-   Top 10 Laptops of 2022
-                Our best picks for various needs and budgets.
-            The Growth of Gaming
-                How the pandemic has sparked fresh opportunities.
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>
- 
+    </section>
+    <aside class="container-links">
+      <ul class="link-list">
+        <li class="list-img"><img src="images/image-retro-pcs.jpg"></li>
+        <ul class="list-text">
+          <li class="list-num">01</li>
+          <li class="list-title">
+            <h4>Retro PCs</h4>
+          </li>
+          <li>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </li>
+        </ul>
+      </ul>
+      <ul class="link-list">
+        <li class="list-img"><img src="images/image-top-laptops.jpg"></li>
+        <ul class="list-text">
+          <li class="list-num">02</li>
+          <li class="list-title">
+            <h4>Top 10 Laptops of 2022</h4>
+          </li>
+          <li>
+            <p>Our best picks for various needs and budgets.</p>
+          </li>
+        </ul>
+      </ul>
+      <ul class="link-list">
+        <li class="list-img"><img src="images/image-gaming-growth.jpg"></li>
+        <ul class="list-text">
+          <li class="list-num">03</li>
+          <li class="list-title">
+            <h4>The Growth of Gaming</h4>
+          </li>
+          <li>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </li>
+        </ul>
+      </ul>
+    </aside>
+  </div>
 </body>
 </html>

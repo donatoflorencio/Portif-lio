@@ -3,24 +3,12 @@
 
 :root {
   --font-primary: 'Roboto Mono', monospace;
-  --font-secundary: Arial, sans-serif;
-
-
-
-  --bgColor: #151515;
-  --color-light: #fff;
-  --color-dark-light: #BFBFBF;
-  --color-dark: #000;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-html {
-  font-size: 62,5%;
 }
 
 li, a {
