@@ -30,8 +30,24 @@
 }
 
 .texte-par p {
+  color: rgba(0, 0, 0, 0.599);
+  font-weight: normal;
   line-height: 25px;
   margin-bottom: 20px;
 }
 
+.container-texte .texte-par button {
+  background-color: #d04d15;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 15px 30px;
+}
 
+.container-texte .texte-par button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.312);
+}

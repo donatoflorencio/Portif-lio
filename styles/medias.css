@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 430px) {
+/* container-principal */
+  #container {
+    width: 100vw;
+    margin: 0;
+    padding: 0 15px;
+
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 15% 50% 350px 550px auto;
+  grid-template-areas: 
+  "header"
+  "img"
+  "texte"
+  "new"
+  "links";
+  }
+  /* header */
+  .container-header .menu-list, .container-menu .menu-close {
+    display: none;
+  }
+
+  .menu-open, .menu-close {
+    display: block;
+  }
+
+  /* Texto-Principal */
+  .container-texte {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .texte-title, .texte-title h1, .texte-par{
+    width: 100%;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .texte-par p {
+    font-size: 1.1em;
+  }
+
+  /* aside-> new */
+  .container-new {
+    margin-top: 50px;
+  }
+
+  .new-list h3 {
+    color: white;
+    font-size: 1.4em;
+  }
+
+  .new-list p {
+    color: white;
+    font-size: 1.1em;
+  }
+
+  /* footer -> não é rodapé de verdade */
+  .container-links {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-links .link-list {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .container-links .link-list img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-links .list-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .list-text .list-num {
+    color: gray;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .list-text .list-title {
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  .list-text p {
+    color: rgb(83, 83, 83);
+    font-size: 1.2em;
+    font-weight: normal;
+  }
+}
